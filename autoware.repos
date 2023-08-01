@@ -83,7 +83,7 @@ repositories:
   sensor_kit/sample_sensor_kit_launch:
     type: git
     url: https://github.com/MeijoMeguroLab/sample_sensor_kit_launch.git
-    version: master
+    version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
@@ -101,7 +101,7 @@ repositories:
   param/autoware_individual_params:
     type: git
     url: https://github.com/MeijoMeguroLab/autoware_individual_params.git
-    version: master
+    version: main
   # middleware
   middleware/external/heaphook:
     type: git
