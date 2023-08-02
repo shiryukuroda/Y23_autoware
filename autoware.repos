@@ -23,7 +23,7 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/MeijoMeguroLab/autoware.universe.git
+    url: git@github.com:MeijoMeguroLab/autoware.universe.git
     version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
@@ -82,7 +82,7 @@ repositories:
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: https://github.com/MeijoMeguroLab/sample_sensor_kit_launch.git
+    url: git@github.com:MeijoMeguroLab/sample_sensor_kit_launch.git
     version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
@@ -100,7 +100,7 @@ repositories:
   # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/MeijoMeguroLab/autoware_individual_params.git
+    url: git@github.com:MeijoMeguroLab/autoware_individual_params.git
     version: main
   # middleware
   middleware/external/heaphook:
