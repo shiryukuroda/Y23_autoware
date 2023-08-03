@@ -61,6 +61,10 @@ repositories:
     type: git
     url: https://github.com/MapIV/llh_converter.git
     version: ros2
+  universe/external/autoware_topic_name_changer:
+    type: git
+    url: https://github.com/MeijoMeguroLab/autoware_topic_name_changer.git
+    version: main
   # launcher
   launcher/autoware_launch:
     type: git
